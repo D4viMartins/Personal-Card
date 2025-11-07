@@ -731,11 +731,15 @@
 		}
 
 			#main .avatar img {
-				display: block;
-				margin: 0 auto;
-				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #ffffff;
-			}
+            display: block;
+            margin: 0 auto;
+            border-radius: 100%;
+            box-shadow: 0 0 0 1.5em #ffffff;
+            width: 150px;
+            height: 150px;
+            object-fit: cover; /* garante que a imagem preencha o círculo */
+        }
+
 
 			#main .avatar:before {
 				content: '';
